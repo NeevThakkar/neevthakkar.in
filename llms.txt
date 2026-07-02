@@ -2,13 +2,13 @@
 
 > Official personal portfolio and resume website for Neev Thakkar.
 
-This site contains Neev Thakkar's profile, education, skills, projects, achievements, resume details, and contact links. The preferred canonical website is http://neevthakkar.in/ until HTTPS is enabled.
+This site contains Neev Thakkar's profile, education, skills, projects, achievements, resume details, and contact links. The preferred canonical website is https://neevthakkar.in/.
 
 ## Core Pages
 
-- [Portfolio Home](http://neevthakkar.in/): Main portfolio with profile, skills, education, projects, achievements, and contact information.
-- [Projects](http://neevthakkar.in/#projects): Selected projects and work samples.
-- [Contact](http://neevthakkar.in/#contact): Official contact and social links.
+- [Portfolio Home](https://neevthakkar.in/): Main portfolio with profile, skills, education, projects, achievements, and contact information.
+- [Projects](https://neevthakkar.in/#projects): Selected projects and work samples.
+- [Contact](https://neevthakkar.in/#contact): Official contact and social links.
 - [GitHub Profile](https://github.com/NeevThakkar): Public code and projects.
 - [LinkedIn Profile](https://www.linkedin.com/in/neev-thakkar-07ab842b7/): Professional profile.
 

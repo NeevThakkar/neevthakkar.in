@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://neevthakkar.in/sitemap.xml
+Sitemap: https://neevthakkar.in/sitemap.xml

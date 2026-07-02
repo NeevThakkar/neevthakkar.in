@@ -669,11 +669,11 @@
 
       <div class="contact-grid">
 
-        <a href="mailto:neevthakkar555@gmail.com" class="contact-card card" aria-label="Send an email">
+        <a href="#contact" class="contact-card card" aria-label="Send an email" data-email-user="neevthakkar555" data-email-domain="gmail.com">
           <span class="contact-icon" aria-hidden="true">✉</span>
           <div class="contact-details">
             <span class="contact-label">Email</span>
-            <span class="contact-value">neevthakkar555@gmail.com</span>
+            <span class="contact-value" data-email-value>neevthakkar555 [at] gmail.com</span>
           </div>
           <span class="contact-arrow" aria-hidden="true">→</span>
         </a>
@@ -746,6 +746,12 @@
         navLinks.classList.remove('nav-links--open');
         toggle.setAttribute('aria-expanded', false);
       });
+    });
+
+    document.querySelectorAll('[data-email-user][data-email-domain]').forEach(link => {
+      const email = `${link.dataset.emailUser}@${link.dataset.emailDomain}`;
+      link.href = `mailto:${email}`;
+      link.querySelector('[data-email-value]').textContent = email;
     });
 
     const typewriterDesktop = document.querySelector('.typewriter-desktop');

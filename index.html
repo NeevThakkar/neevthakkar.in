@@ -134,10 +134,20 @@
 
       <!-- CSS typewriter effect on subtitle -->
       <p class="hero-title animate-in" style="--delay: 240ms">
-        <span class="typewriter" aria-label="Business Student and Aspiring Entrepreneur">
-          <span class="typewriter-line" style="--chars: 18; --delay: 0.75s;">Business Student &amp;</span>
-          <span class="typewriter-line" style="--chars: 21; --delay: 2.1s;">Aspiring Entrepreneur</span>
+        <span class="typewriter typewriter-desktop" aria-hidden="true">
+          <span class="typewriter-text" data-text="Business Student &amp; Aspiring Entrepreneur"></span>
+          <span class="typewriter-cursor"></span>
         </span>
+        <span class="typewriter-mobile" aria-hidden="true">
+          <span class="typewriter-mobile-line">
+            <span class="typewriter-text" data-text="Business Student &amp;"></span>
+            <span class="typewriter-cursor"></span>
+          </span>
+          <span class="typewriter-mobile-line">
+            <span class="typewriter-text" data-text="Aspiring Entrepreneur"></span>
+          </span>
+        </span>
+        <span class="sr-only">Business Student and Aspiring Entrepreneur</span>
       </p>
 
       <p class="hero-tagline animate-in" style="--delay: 360ms">
@@ -733,6 +743,53 @@
         toggle.setAttribute('aria-expanded', false);
       });
     });
+
+    const typewriterDesktop = document.querySelector('.typewriter-desktop');
+    const typewriterMobile = document.querySelector('.typewriter-mobile');
+
+    const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+    async function typeInto(target, text, delay = 42) {
+      target.textContent = '';
+      for (const char of text) {
+        target.textContent += char;
+        await sleep(delay);
+      }
+    }
+
+    async function runHeroTypewriter() {
+      const isMobile = window.matchMedia('(max-width: 768px)').matches;
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      if (reduceMotion) {
+        document.querySelectorAll('.typewriter-text').forEach(text => {
+          text.textContent = text.dataset.text;
+        });
+        return;
+      }
+
+      await sleep(750);
+
+      if (isMobile && typewriterMobile) {
+        const lines = [...typewriterMobile.querySelectorAll('.typewriter-mobile-line')];
+        const cursor = typewriterMobile.querySelector('.typewriter-cursor');
+
+        for (const line of lines) {
+          const text = line.querySelector('.typewriter-text');
+          line.appendChild(cursor);
+          await typeInto(text, text.dataset.text, 44);
+          await sleep(180);
+        }
+        return;
+      }
+
+      if (typewriterDesktop) {
+        const text = typewriterDesktop.querySelector('.typewriter-text');
+        await typeInto(text, text.dataset.text, 38);
+      }
+    }
+
+    runHeroTypewriter();
   </script>
 
 </body>

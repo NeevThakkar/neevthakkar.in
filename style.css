@@ -24,6 +24,8 @@
   --clr-text-primary:  #f0ede6;      /* Warm ivory — main text */
   --clr-text-secondary:#9896a8;      /* Muted lavender-grey */
   --clr-text-tertiary: #4e4d62;      /* Very muted, for decorative text */
+  --clr-text-subtle:   #8f8ca1;      /* Accessible muted text */
+  --clr-text-muted:    #aaa7b8;      /* Accessible small labels */
 
   /* — Accent — */
   --clr-accent:        #c9a96e;      /* Antique gold */
@@ -300,8 +302,9 @@ time {
 .chip--mono {
   font-family: var(--font-mono);
   font-size: 0.7rem;
-  color: var(--clr-text-tertiary);
-  border-color: rgba(255,255,255,0.04);
+  color: var(--clr-text-muted);
+  border-color: rgba(255,255,255,0.12);
+  background-color: rgba(255,255,255,0.025);
 }
 
 
@@ -586,7 +589,7 @@ time {
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--clr-text-tertiary);
+  color: var(--clr-text-subtle);
 }
 
 .hero-eyebrow-dot {
@@ -677,7 +680,7 @@ time {
   font-size: 0.65rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--clr-text-tertiary);
+  color: var(--clr-text-subtle);
 }
 
 
@@ -824,7 +827,7 @@ time {
   font-weight: 500;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--clr-text-tertiary);
+  color: var(--clr-text-muted);
 }
 
 
@@ -904,7 +907,7 @@ time {
 .timeline-year {
   font-family: var(--font-mono);
   font-size: var(--text-xs);
-  color: var(--clr-text-tertiary);
+  color: var(--clr-text-muted);
   letter-spacing: 0.06em;
 }
 
@@ -923,8 +926,8 @@ time {
 
 .timeline-badge--done {
   background-color: rgba(255,255,255,0.04);
-  color: var(--clr-text-tertiary);
-  border-color: var(--clr-border);
+  color: var(--clr-text-muted);
+  border-color: rgba(255,255,255,0.12);
 }
 
 .timeline-degree {
@@ -1021,7 +1024,7 @@ time {
 .project-number {
   font-family: var(--font-mono);
   font-size: 0.7rem;
-  color: var(--clr-text-tertiary);
+  color: var(--clr-text-subtle);
   letter-spacing: 0.1em;
 }
 
@@ -1090,7 +1093,7 @@ time {
 .experience-year {
   font-family: var(--font-mono);
   font-size: var(--text-xs);
-  color: var(--clr-text-tertiary);
+  color: var(--clr-text-muted);
   letter-spacing: 0.06em;
   line-height: 1.5;
   padding-top: var(--space-1);
@@ -1185,7 +1188,7 @@ time {
   font-weight: 500;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--clr-text-tertiary);
+  color: var(--clr-text-muted);
   margin-bottom: 2px;
 }
 
@@ -1204,7 +1207,7 @@ a.contact-card:hover .contact-value {
 }
 
 .contact-arrow {
-  color: var(--clr-text-tertiary);
+  color: var(--clr-text-subtle);
   font-size: 1rem;
   flex-shrink: 0;
   transition: transform var(--duration-base) var(--ease-out),
@@ -1242,7 +1245,7 @@ a.contact-card:hover .contact-arrow {
   font-family: var(--font-display);
   font-size: 2rem;
   font-weight: 600;
-  color: var(--clr-text-tertiary);
+  color: var(--clr-text-muted);
   line-height: 1;
   margin-bottom: var(--space-3);
   letter-spacing: -0.02em;
@@ -1250,15 +1253,15 @@ a.contact-card:hover .contact-arrow {
 
 .footer-text {
   font-size: var(--text-sm);
-  color: var(--clr-text-tertiary);
+  color: var(--clr-text-muted);
   margin-bottom: 0;
 }
 
 .footer-sub {
   font-family: var(--font-mono);
   font-size: var(--text-xs);
-  color: var(--clr-text-tertiary);
-  opacity: 0.5;
+  color: var(--clr-text-subtle);
+  opacity: 1;
   letter-spacing: 0.06em;
 }
 

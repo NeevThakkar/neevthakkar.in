@@ -1,0 +1,22 @@
+{
+  "name": "Neev Thakkar Portfolio",
+  "short_name": "NT Portfolio",
+  "description": "Official portfolio of Neev Thakkar featuring resume details, projects, skills, education, achievements, and contact links.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#090a0e",
+  "theme_color": "#090a0e",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

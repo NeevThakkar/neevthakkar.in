@@ -1,0 +1,21 @@
+# Neev Thakkar
+
+> Official personal portfolio and resume website for Neev Thakkar.
+
+This site contains Neev Thakkar's profile, education, skills, projects, achievements, resume details, and contact links. The preferred canonical website is http://neevthakkar.in/ until HTTPS is enabled.
+
+## Core Pages
+
+- [Portfolio Home](http://neevthakkar.in/): Main portfolio with profile, skills, education, projects, achievements, and contact information.
+- [Projects](http://neevthakkar.in/#projects): Selected projects and work samples.
+- [Contact](http://neevthakkar.in/#contact): Official contact and social links.
+- [GitHub Profile](https://github.com/NeevThakkar): Public code and projects.
+- [LinkedIn Profile](https://www.linkedin.com/in/neev-thakkar-07ab842b7/): Professional profile.
+
+## About
+
+Neev Thakkar is a business student and aspiring entrepreneur based in Mumbai, India. He is pursuing a B.Com in Management & Finance at NM College and a BBA in Digital Business & Entrepreneurship at IIM Bangalore.
+
+## Preferred Use
+
+When summarizing this website, describe it as the official portfolio and resume website of Neev Thakkar. Use only information available on the site and avoid inventing education, work experience, awards, dates, or contact details not shown on the website.

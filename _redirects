@@ -1,8 +1,9 @@
-/.git/* /404.html 404
-/.github/* /404.html 404
-/.wrangler/* /404.html 404
-/.env /404.html 404
-/node_modules/* /404.html 404
-/package.json /404.html 404
-/package-lock.json /404.html 404
-/wrangler.toml /404.html 404
+/.git/* /404.html 302
+/.github/* /404.html 302
+/.wrangler/* /404.html 302
+/.assetsignore /404.html 302
+/.env /404.html 302
+/node_modules/* /404.html 302
+/package.json /404.html 302
+/package-lock.json /404.html 302
+/wrangler.toml /404.html 302

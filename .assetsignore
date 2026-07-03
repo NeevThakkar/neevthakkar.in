@@ -1,0 +1,13 @@
+.git
+.git/**
+.github
+.github/**
+.wrangler
+.wrangler/**
+.env
+.env.*
+node_modules
+node_modules/**
+package.json
+package-lock.json
+wrangler.toml

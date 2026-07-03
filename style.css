@@ -104,7 +104,7 @@ html {
   font-size: 16px;
   scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
-  scroll-padding-top: var(--nav-h);
+  scroll-padding-top: 0;
 }
 
 body {
@@ -1275,7 +1275,7 @@ a.contact-card:hover .contact-arrow {
 #projects,
 #experience,
 #contact {
-  scroll-margin-top: var(--nav-h);
+  scroll-margin-top: calc(var(--nav-h) - var(--section-py) + var(--space-6));
 }
 
 

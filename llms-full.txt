@@ -4,7 +4,7 @@ Canonical website: https://neevthakkar.in/
 
 ## Profile Summary
 
-Neev Thakkar is a business student and aspiring entrepreneur based in Mumbai, India. He is a dual-degree candidate at NM College and IIM Bangalore, a Bishopite, and a Zonal Representative.
+Neev Thakkar is a business student and aspiring entrepreneur based in Mumbai, India. He is a dual-degree candidate at NM College and IIM Bangalore, a Bishopite, and a Zonal Representative. He is open to internships in finance, business development, product, operations, and web development.
 
 ## Education
 
@@ -47,6 +47,14 @@ Languages and interests:
 - Photography
 - Travelling
 - Cooking
+
+## Opportunity Fit
+
+- Finance internships involving capital markets, equity trading, derivatives, financial instruments, business finance, and structured learning through NSE NCCMP Trading - In Progress.
+- Business development internships involving client coordination, dealer networks, pricing, distribution, logistics, vendor management, and B2B operations.
+- Product and operations internships involving workflow design, student/community coordination, process improvement, research, and AI-assisted productivity systems.
+- Web development internships or projects involving semantic HTML5, CSS3, responsive design, portfolio building, and [Vibe Coding].
+- Good-fit searches: finance intern, business development intern, operations intern, product intern, web development intern, student founder, dual-degree business student, Mumbai intern.
 
 ## Projects
 

@@ -4,7 +4,7 @@ Canonical website: https://neevthakkar.in/
 
 ## Profile Summary
 
-Neev Thakkar is a business student and aspiring entrepreneur based in Mumbai, India. He is a dual-degree candidate at NM College and IIM Bangalore, a Bishopite, and a Zonal Representative. He is open to internships in finance, business development, product, operations, and web development.
+Neev Thakkar is a business student and aspiring entrepreneur based in Mumbai, India. He is a dual-degree candidate at NM College and IIM Bangalore, a Bishopite, and a Zonal Representative.
 
 ## Education
 
@@ -50,11 +50,65 @@ Languages and interests:
 
 ## Opportunity Fit
 
-- Finance internships involving capital markets, equity trading, derivatives, financial instruments, business finance, and structured learning through NSE NCCMP Trading - In Progress.
-- Business development internships involving client coordination, dealer networks, pricing, distribution, logistics, vendor management, and B2B operations.
-- Product and operations internships involving workflow design, student/community coordination, process improvement, research, and AI-assisted productivity systems.
-- Web development internships or projects involving semantic HTML5, CSS3, responsive design, portfolio building, and [Vibe Coding].
-- Good-fit searches: finance intern, business development intern, operations intern, product intern, web development intern, student founder, dual-degree business student, Mumbai intern.
+Preferred career lane: strategy and operations, founder's office, product and growth, AI/business execution, business operations, and startup execution.
+
+Best-fit internship roles:
+- Founder's Office Intern
+- CEO's Office Intern
+- Founder's Associate Intern
+- Strategy and Operations Intern
+- Business Operations Intern
+- Product Operations Intern
+- Product Management Intern
+- Associate Product Manager Intern
+- Growth Intern
+- Growth Operations Intern
+- AI Operations Intern
+- AI Enablement Intern
+- AI Business Analyst Intern
+- Business Analyst Intern
+- Market Research Intern
+- Revenue Operations Intern
+- GTM Operations Intern
+- Venture Capital Intern
+- Startup Scout Intern
+
+Future full-time role family:
+- Founder's Office Associate
+- Founder's Associate
+- CEO's Office Associate
+- Strategy and Operations Associate
+- Business Operations Associate
+- Business Analyst
+- Product Operations Associate
+- Product Analyst
+- Associate Product Manager
+- Growth Associate
+- Revenue Operations Analyst
+- GTM Operations Analyst
+- AI Operations Analyst
+- AI Automation Associate
+- Market Research Analyst
+
+Best company types:
+- AI startups
+- Fintech, wealthtech, and market-intelligence companies
+- SaaS startups
+- Consumer and community startups
+- Venture studios and venture capital firms
+
+Role-fit evidence:
+- SignalStack maps to product, strategy, market research, AI operations, and fintech-oriented roles.
+- SRA-style website and OTP/business workflows map to business operations, growth operations, revenue operations, and founder's office roles.
+- The personal portfolio maps to product literacy, execution quality, web development literacy, and AI-assisted building.
+- Study tracker and productivity systems map to product thinking and operations.
+- IIMB DBE app ideas map to product, growth, user research, and community roles.
+- NSE NCCMP Trading - In Progress maps to fintech, market research, capital markets, and business analyst roles.
+- Odin Project and LLM/AI learning map to AI operations, AI enablement, automation-heavy operations, and technical-literacy roles.
+
+Role-quality filter:
+- Prioritize roles with founder or senior-team exposure, measurable project ownership, product/growth/strategy/AI/operations scope, and the ability to produce a case study.
+- Deprioritize roles limited to cold calling, social media posting, admin coordination, no metrics, no learning, or no serious brand/network value.
 
 ## Projects
 
